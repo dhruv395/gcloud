@@ -1,0 +1,1 @@
+gcloud config set project gke-lab           ->set your Cloud Platform project
