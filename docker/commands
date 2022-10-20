@@ -1,0 +1,4 @@
+docker cp index.html <containerID>:/usr/share/nginx/html/                                             ->copy files inside running container
+docker images
+docker commit <containerID> myrepo/nginxweb:version1                                                  ->create image from running container
+docker tag myrepo/nginxweb:version1  us-central1-docker.pkg.dev/gke-lab-365913/mygkerepo/nginxweb:tag1  -> tag images
