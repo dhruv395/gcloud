@@ -2,7 +2,7 @@ name: greeting from mona
 on: push
 jobs:
   first-job:
-    name: my first job
+    #name: my first job
     runs-on: ubuntu-latest
     steps:
       - name: print a greeting
